@@ -1,0 +1,120 @@
+/* codigo CSS */
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color:rgb(0, 81, 255);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(18, 172, 56);
+}
+
+h3 {
+    color: rgb(0, 81, 255);
+}
+
+h5 {
+    color: rgb(18, 172, 56);
+}
+
+p {
+    color: #0e0864;
+    line-height: 30px;
+    margin: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-right: 45px;
+} 
+
+
+li {
+    list-style-type: none;
+
+}  
+
+ul li a {
+    color: rgb(26, 45, 224);
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}  
+
+ul li a:hover {
+    color: rgb(26, 224, 69)
+}  
+
+
+.propiedadesDeLaCaja {
+background-color: rgb(245, 245, 245);
+padding: 10px 20px;
+}
+
+.redesSociales {
+    background-image: linear-gradient(to right, rgb(220, 234, 250) , rgb(153, 202, 248));
+    padding: 10px 20px;
+    }
+
+.margenesLogo {
+    padding: 20px 20px;
+    }
+
+
+.video {
+        border: 5px rgb(150, 199, 245) solid;
+        }
+
+
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    }
+
+.contenedorHijo {
+    margin: 10px 10px;
+    background-color: #f7f5f5;
+    }
+
+.gridImagenes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 160px 20px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    justify-items: center;
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    }
+
+.div1{
+    background-color:  rgb(218, 216, 216);
+    }
+.div2{
+    background-color: rgb(245, 245, 245);
+    }
+.div3{
+    background-color: rgb(245, 245, 245);
+    }
+.div4{
+    background-color: rgb(255, 255, 255);
+    }
+    
+    .form{
+        color: #0e0864;
+        }
+

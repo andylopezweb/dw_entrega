@@ -1,0 +1,149 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif; }
+
+h2 {
+  color: white; }
+
+h3 {
+  color: #1a44a0; }
+
+h4 {
+  color: white;
+  text-align: center;
+  padding: 10px 20px; }
+
+h5 {
+  color: #12ac38; }
+
+h6 {
+  color: #4c7ade; }
+
+p {
+  color: #0e0864;
+  line-height: 30px;
+  margin: 10px; }
+
+nav {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-right: 45px; }
+
+li {
+  list-style-type: none; }
+
+ul li a {
+  color: #1a2de0;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block; }
+
+ul li a:hover {
+  color: #1ae045; }
+
+.propiedadesDeLaCaja {
+  padding: 10px 20px; }
+
+.redesSociales {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-image: linear-gradient(to right, #dceafa, #99caf8);
+  padding: 10px 20px;
+  justify-items: center; }
+
+.margenesLogo {
+  padding: 20px 20px; }
+
+.table {
+  color: #1a44a0; }
+
+.containerTelefono {
+  display: grid;
+  grid-template-columns: repeat(1);
+  background-color: #4bc0ee;
+  padding: 5px; }
+
+.containerBienvenidos {
+  background-color: #edeff0;
+  padding: 60px;
+  margin: 10px; }
+
+.padre-flex {
+  display: flex;
+  flex-direction: column; }
+
+.contenedorHijo {
+  margin: 10px 10px; }
+
+.contenedorPadre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.gridImagenes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 160px 20px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  justify-items: center; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 40px 40px 40px 40px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  justify-items: center; }
+
+.div1 {
+  background-color: #2d96d8; }
+
+.div2 {
+  background-color: whitesmoke; }
+
+.form {
+  color: #0e0864; }
+
+/* Block */
+.btn {
+  color: #888;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px; }
+
+/* Element */
+.btn__price {
+  background-color: white;
+  color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
+  /* realign button text padding */
+  font-weight: 600;
+  background-color: #333;
+  opacity: .4;
+  border-radius: 5; }
+
+/* Element */
+.btn__text {
+  padding: 0 10px;
+  color: white;
+  border-radius: 0 5px 5px 0; }
+
+.btn--blue {
+  color: white;
+  background-color: #0074D9; }
+
+.btn--orange {
+  color: white;
+  background-color: #4bc0ee; }
+
+.btn--green {
+  color: white;
+  background-color: #40b882; }
